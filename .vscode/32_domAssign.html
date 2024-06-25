@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise time!</title>
+</head>
+<body>
+    <main>
+        <div id="overview">
+            <h1 id="Heading">HTML & JavaScript are crucial technologies</h1>
+            <p>The web would not work without them</p>
+        </div>   
+    <div id="advantage">
+     <ul id="li">
+        <li>Flexible</li>
+        <li id="Second">Available</li>
+        <li>Magical</li>
+     </ul>
+    </div>
+    </main>
+    <script>
+    console.log(`==================Main Heading==================`);
+    const mainH1=document.querySelector("#Heading");
+    console.log(mainH1.innerHTML);
+    console.log(`=================Access Second li element========`);
+    const seconli=document.querySelector("#Second");
+    console.log(seconli.innerHTML);
+    console.log(`==================Advantages======================`);
+    const allEle=document.querySelectorAll("li");
+    console.log(allEle);
+    for (const element of allEle) {
+        console.log(element.innerHTML);
+    }
+    // const firsli=document.querySelector("#First");
+    // console.log(firsli.innerHTML);
+    // const Seconli=document.querySelector("#Second");
+    // console.log(Seconli.innerHTML);
+    // const thirdli=document.querySelector("#Third");
+    // console.log(thirdli.innerHTML);
+    
+
+    </script>
+</body>
+</html>

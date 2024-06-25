@@ -1,0 +1,18 @@
+console.log("================Step 1============================");
+var bankName;
+console.log(bankName);
+bankName="SBI BANK";
+console.log("Bank Name:- ",bankName,"And it's Datatype is:-" ,typeof  bankName);
+console.log("===============Step 2============================");
+var Marks='90%';
+console.log("Marks:- ",Marks,"And it's Data type is:- ", typeof Marks);
+console.log("===============Step 3============================");
+var isWorking;
+console.log(isWorking);
+isWorking=true;
+console.log("Working :-",isWorking,"And it's Data type is:- ",typeof isWorking);
+console.log("================Step 4============================");
+var totalCount='Hundred and seven';
+console.log("Total Count:- ",totalCount, "And it's Data type is:- ",typeof totalCount);
+var totalCount=107;
+console.log("Total Count:- ",totalCount, "And it's Data type is:- ",typeof totalCount);

@@ -1,0 +1,1 @@
+ console.log(`Total Word:- ${word}`);
